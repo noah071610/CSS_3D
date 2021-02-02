@@ -31,7 +31,7 @@ function Character(info) {
 
     this.mainElem.style.left = info.xPos + '%';
     // 스크롤 중인지 아닌지
-    this.scrollState = false;
+    this.  = false;
     // 바로 이전 스크롤 위치
     this.lastScrollTop = 0;
     this.xPos = info.xPos;
