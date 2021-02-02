@@ -1,0 +1,16 @@
+background-size : contain , cover
+background: ....  / size...
+flex: 1;
+animation-play-state: paused;
+linear forwards(그 위치에 멈춤) infinite alternate steps(17);
+NODENAME.parentNode.removeChild(event.currentTarget)
+classList.contains('CLASSNAME') = bool
+pointer-events:none <-css로 이벤트 무시처리
+event.target.dataset.value <- data-value="VALUE" 값을 가져옴
+nth-child = nth-of-type
+transform: translate3d(100%, 0, 0); 퍼포먼스 향상
+pageYoffset(스크롤한 양), ele.offsetTop , ele.getBoundingclientReac, innerHight, event.clientX Y  , offsetHeight
+eventListener -> transition end or start / (animationend animationiteration) ==> event.elapsedTime,propertyName
+requestAnimationFrame <-> cancelAnimationFrame
+pageYoffset / document.body.offsetHeight - window.innerHeight; -> 얼마나 스크롤한지 비율 측정
+mouseEvent 에서 clientX ,Y 는 현재 마우스 위치값
